@@ -1,4 +1,4 @@
-class calculator:
+class Calculator:
     
     def add(self, a, b):
         return a + b
@@ -14,18 +14,18 @@ class calculator:
             raise ValueError("Cannot divide by zero.")
         return a / b
     
-operation = input("enter the operation (add, subtract, multiply, divide): ")
-input2 = int(input("enter the first number: "))
-input3 = int(input("enter the second number: "))
+# operation = input("enter the operation (add, subtract, multiply, divide): ")
+# input2 = int(input("enter the first number: "))
+# input3 = int(input("enter the second number: "))
 
-print("The result is: ", end="")
-calc = calculator()
+# print("The result is: ", end="")
+# calc = Calculator()
 
-if operation == "add":
-    print(calc.add(input2, input3))
-elif operation == "subtract":
-    print(calc.subtract(input2, input3))
-elif operation == "multiply":
-    print(calc.multiply(input2, input3))
-elif operation == "divide":
-    print(calc.divide(input2, input3))
+# if operation == "add":
+#     print(calc.add(input2, input3))
+# elif operation == "subtract":
+#     print(calc.subtract(input2, input3))
+# elif operation == "multiply":
+#     print(calc.multiply(input2, input3))
+# elif operation == "divide":
+#     print(calc.divide(input2, input3))
